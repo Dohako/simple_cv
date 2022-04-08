@@ -68,6 +68,7 @@ h6{font-size: 16px;}
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
 
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -83,6 +84,8 @@ h6{font-size: 16px;}
 
 .nav-wrapper{
     grid-area: nav-wrapper;
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
 }
 
 .left-column{
